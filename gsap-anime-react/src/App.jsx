@@ -9,7 +9,6 @@ import gsap from "gsap";
 function App() {
   // const [count, setCount] = useState(0);
   const targetDev = useRef(null)
-
   // useGSAP(
   //   () => {
   //     // gsap code here...
@@ -34,7 +33,6 @@ function App() {
   //       duration: 1.5, ease: 'power4.inOut'
   //     }
   //   );
-
   //   return () => {
   //     gsap.to('.overlay', {
   //       width: 0,
