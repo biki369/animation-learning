@@ -54,10 +54,8 @@ function App() {
         duration: 1.5, ease: 'power4.inOut'
       });
     },
-    // { scope: targetDev }
+    // { scope: targetDev ............}
   );
-
-
 
   return (
     < div className="app">
