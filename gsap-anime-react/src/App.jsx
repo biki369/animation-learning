@@ -57,11 +57,23 @@ function App() {
     // { scope: targetDev ..................}
   
   );
+  useGSAP(
+    () => {
+      gsap.to('.square', {
+        height: 0,
+        opacity: 1,
+
+        duration: 1.5, ease: 'power4.inOut'
+      });
+    },
+    { scope: targetDev}
+  
+  );
 
   return (
     < div className="app">
       <div className="overlay" ref={targetDev} ></div>
-      <div >Hello World..</div>
+      <div >Hello World......</div>
       <div className="square" ref={targetDev}></div>
     </div>
   )
